@@ -116,14 +116,8 @@ ll.pl()
 '''
 m=3
 n=4
-a=[]
-for i in range(m):
-    l=[]
-    for j in range(n):
-        k=int(input())
-        l.append(k)
-    a.append(l)
-print(a)
+a=[[1,1,1,0],[1,1,1,1],[1,1,1,1]]
+
 l=[0]*m
 l1=[0]*n
 for i in range(m):
